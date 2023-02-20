@@ -38,3 +38,17 @@
     font-size: 1.8rem;
     line-height: 3rem;
 }
+
+/* DARK MODE */
+
+.dark .main__list-item {
+    border-color: #2b2b2b;
+}
+
+.dark .main__list-item:hover {
+    border-color: #0488c1;
+}
+
+.dark .main__list-link {
+    color: #EAEAEA;
+}

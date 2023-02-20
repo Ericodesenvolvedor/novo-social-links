@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 4.4rem;
+}
+
+.header__wrapper-img {
+    margin-bottom: 1.9rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.header__img {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.header__title {
+    font-size: 5rem;
+}
+
+.header__description {
+    font-size: 2rem;
+}

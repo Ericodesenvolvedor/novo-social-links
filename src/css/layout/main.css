@@ -1,0 +1,40 @@
+.main {
+    padding: 1.6rem;
+}
+
+.main__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
+    gap: 3.2rem;
+}
+
+.main__list-item {
+    border: 2px solid #dedede;
+    border-radius: 1rem;
+}
+
+.main__list-item:hover {
+    border-color: #0488c1;
+}
+
+.main__list-item:hover .main__list-link {
+    color: #0488c1;
+}
+
+.main__list-link {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    padding: 2.5rem;
+
+    color: #333333;
+}
+
+.main__list-title {
+    font-size: 2.2rem;
+}
+
+.main__list-description {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
